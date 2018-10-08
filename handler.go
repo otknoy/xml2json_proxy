@@ -10,5 +10,21 @@ type XML2JsonHandler struct {
 }
 
 func (h *XML2JsonHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "hoge")
+
+	url := "http://example.com"
+	path := "/test"
+
+	// build request
+
+	// request
+
+	// get response
+
+	// convert response to json
+
+	//
+
+	res := "{\"foo\": 123}"
+
+	fmt.Fprint(w, res)
 }
